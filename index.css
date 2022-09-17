@@ -142,6 +142,9 @@ table {
   --text-4xl: 2.25rem;
   --text-5xl: 3rem;
   --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --text-9xl: 8rem;
 }
 
 * {
@@ -212,7 +215,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 150px 0;
+  margin: 150px 0 50px 0;
   padding: 0 30px;
 }
 
@@ -242,6 +245,54 @@ html {
   height: 5px;
   margin: 30px auto;
   background-color: var(--color-line);
+}
+
+/* main section */
+
+.benefits-section {
+  background-color: var(--color-dark-green);
+  padding: 50px 30px;
+}
+
+.get-benefits {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get-benefits .line {
+  width: 200px;
+  height: 5px;
+  background-color: var(--color-orange);
+  margin: 30px auto;
+}
+
+.get-benefits p {
+  font-size: var(--text-6xl);
+}
+
+.benefits-container {
+  margin: 30px 0;
+}
+
+.benefit-icon,
+.benefit-descriptions {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.benefit-icon i {
+  font-size: var(--text-8xl);
+}
+
+.benefit-descriptions h1 {
+  font-size: var(--text-4xl);
+  color: var(--color-orange);
+  font-weight: bold;
+}
+
+.benefit-descriptions p {
+  margin: 20px 0;
+  line-height: 1.5;
 }
 
 @media (min-width: 426px) {
