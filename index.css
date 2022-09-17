@@ -159,6 +159,7 @@ html {
 
 .home-wrapper {
   margin: 0 auto;
+  min-width: 300px;
 }
 
 .nav-container {
@@ -293,6 +294,100 @@ html {
 .benefit-descriptions p {
   margin: 20px 0;
   line-height: 1.5;
+  font-size: var(--text-2xl);
+}
+
+.profile-section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 30px 0;
+  padding: 0 30px;
+}
+
+.profile img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid var(--color-dark-green);
+}
+
+.profile-description {
+  margin: 30px 0;
+}
+
+.profile-description h1 {
+  font-size: var(--text-4xl);
+  font-weight: bold;
+}
+
+.profile-description p {
+  margin: 10px 0;
+  font-size: var(--text-2xl);
+  line-height: 1.5;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-orange);
+  color: var(--color-dark-green);
+  padding: 30px;
+}
+
+.get-started p {
+  font-size: var(--text-4xl);
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.contact-section a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--text-2xl);
+  color: var(--color-dark-green);
+  border: 3px solid var(--color-dark-green);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.footer-section {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-left {
+  text-align: center;
+}
+
+.footer-links h1 {
+  font-size: var(--text-4xl);
+  font-family: var(--font-title);
+  font-weight: bold;
+}
+
+.footer-links ul a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px;
+  font-size: var(--text-2xl);
+}
+
+.footer-right p {
+  font-size: var(--text-lg);
+  line-height: 1.5;
+}
+
+.copyright p {
+  font-size: var(--text-lg);
+  margin: 20px 0;
+  text-align: center;
 }
 
 @media (min-width: 426px) {
